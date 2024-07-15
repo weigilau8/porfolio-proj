@@ -23,55 +23,59 @@
         <!-- Home Section  -->
         <section id="home" class="section home">
             <div class="home-content">
-                <h1>web Development Portfolio</h1> 
-                <p>Hey! I'm Luigi Lauron, a Wordpress developer</p>
+                <h1>Web Development Portfolio</h1> 
+                <p>Hey! I'm Luigi Lauron, <br>a Wordpress developer</p>
             </div> 
         </section>
         <!-- Home Section Ends  -->
 
         <!-- About Section --> 
         <section class="section about">
-            <h2>About Section</h2> 
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="img/profile.jpg" alt="About me">
-                </div> 
-                <div class="about-text">
-                    <p>Wordpress Developer the front end developer</p> 
-                </div> 
+            <div class="container">
+                <h2>About Section</h2> 
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="img/profile.jpg" alt="About me">
+                    </div> 
+                    <div class="about-text">
+                        <p>Wordpress Developer the wordpress developer</p> 
+                    </div> 
+                </div>
             </div>
         </section>
         <!-- About Section Ends -->
 
         <!-- Project section -->
         <section id="projects" class="section projects">
-            <h2>Projects</h2> 
-            <div class="projects-grid">
-                <div class="project-item">
-                    <img src="img/biggins.jpg" alt="Project 1"> 
-                    <h3>Biggins website</h3>
-                    <p>Home is more than a house</p>
-                    <a href="https://bigginscott.com.au/">link</a> 
-                </div>
-                <div class="project-item">
-                    <img src="img/waikuku.jpg" alt="Project 2">
-                    <h3>Waikuku lanes</h3>
-                    <p>Although vintage and small, we strive to offer Bowling experiences for leagues, youth and general public “open play”</p> 
-                    <a href="https://wailukulanesmaui.com/">link</a>
-                </div> 
-                <div class="project-item">
-                    <img src="img/lightdep.jpg" alt="Project 3">
-                    <h3>Lightdep solutios</h3>
-                    <p>Light deprivation is the future of production.
-                        By changing the light cycle,
-                        you can trigger multiple harvests in a season.</p> 
-                    <a href="https://lightdepsolutions.com/">link</a>
-                </div> 
-                <div class="project-item">
-                    <img src="img/takahari.jpg" alt="Project 4">
-                    <h3>Takahari</h3>
-                    <p>Esl School</p> 
-                    <a href="http://takaharienglish.com/">link</a>
+            <div class="container">
+                <h2>Projects</h2> 
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <img src="img/biggins.jpg" alt="Project 1"> 
+                        <h3>Biggins website</h3>
+                        <p>Home is more than a house</p>
+                        <a href="https://bigginscott.com.au/">link</a> 
+                    </div>
+                    <div class="project-item">
+                        <img src="img/waikuku.jpg" alt="Project 2">
+                        <h3>Waikuku lanes</h3>
+                        <p>Although vintage and small, we strive to offer Bowling experiences for leagues, youth and general public “open play”</p> 
+                        <a href="https://wailukulanesmaui.com/">link</a>
+                    </div> 
+                    <div class="project-item">
+                        <img src="img/lightdep.jpg" alt="Project 3">
+                        <h3>Lightdep solutios</h3>
+                        <p>Light deprivation is the future of production.
+                            By changing the light cycle,
+                            you can trigger multiple harvests in a season.</p> 
+                        <a href="https://lightdepsolutions.com/">link</a>
+                    </div> 
+                    <div class="project-item">
+                        <img src="img/takahari.jpg" alt="Project 4">
+                        <h3>Takahari</h3>
+                        <p>Esl School</p> 
+                        <a href="http://takaharienglish.com/">link</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -93,13 +97,14 @@
         <!-- Contact Section -->
         <section id="contact" class="section contact">
             <h2>Contact</h2> 
-            <form> 
+            <form class="contact-form"> 
                 <label for="name">Name</label> 
                 <input type="text" id="name" required> 
                 <label for="email">Email</label> 
                 <input type="email" id="email" required> 
                 <label for="message">Message</label>
                 <textarea type="message" id="message" rows="4" required></textarea>
+                <button>Submit</button>
             </form> 
         </section>
         <!-- Contact Section Ends -->
